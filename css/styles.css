@@ -48,9 +48,9 @@ section{
       font-family: arial;
   }
   .intro{
-    display:inline-block;
+    /* display:inline-block;
     padding:25px;
-    padding-right: 30px;
+    padding-right: 30px; */
     color: #305c68;
     text-decoration: none;
     font-weight: bold;
@@ -63,8 +63,20 @@ section{
     left: 16px;
   }
   
-  h1{font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 30px;}
+  h1{
+  font-family: "alkaline-caps", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #C86801;
+  }
+
+  p{
+    font-family: "asap", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #1D5D6A;
+
+  }
   
   input{
     display: block;
@@ -123,9 +135,11 @@ section{
   }
   
   h2 {
-  
-    font-size: 18px;
-    margin-right: 120px;
+    font-family: "alkaline-caps", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #C86801;
+    margin-top: .5em;
   }
   
   h3{
@@ -204,6 +218,7 @@ section{
 
   .blue {
     background-color: #DEE5E7;
+    height: 100%;
   }
 
   .red {
@@ -228,10 +243,25 @@ a:hover{
 
 ol{
   list-style:none;
+  color:#305c68
 }
 
 li{
   border-bottom: 1px solid black;
+  color:#305c68
+}
+
+
+span{
+margin-right: 30px;
+font-size: 2em;
+font-family: "itc-benguiat", serif;
+font-weight: 400;
+font-style: normal;
+color:#560c0d
 
 }
 
+.recipe {
+  background-color: #DEE5E7;
+}
